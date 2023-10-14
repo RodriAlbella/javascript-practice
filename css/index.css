@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/Img-scrimba/rollo-hilo.jpg");
+  background-size: cover;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  height: 100vh;
+}
+
+body .container {
+  background-color: linear;
+  max-width: 35%;
+  padding-bottom: 15px;
+  margin: auto;
+  margin-top: 10rem;
+  border: 3px solid rgb(54, 100, 144);
+  color: rgb(54, 100, 144);
+  border-radius: 10px;
+}
+
+body .container h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body .container h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+body .container button {
+  display: block;
+  margin: auto;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+body .container #increment-btn {
+  background: darkred;
+}
+
+body .container #save-btn {
+  background-color: darkgreen;
+}
+body .container #save-el {
+  font-weight: bolder;
+}
+
+body .container #restar-btn {
+  background: darkorange;
+}
